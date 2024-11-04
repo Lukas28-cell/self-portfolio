@@ -4,10 +4,10 @@ import React from "react";
 const projects = [
   {
     title: "Project One",
-    description: "Nike ecommerce project",
+    description: "Nike-ecommerce project",
     image: "https://via.placeholder.com/300",
-    demoLink: "https://example.com", 
-    repoLink: "https://github.com/yourusername/project-one", 
+    demoLink: "https://neke-store-luk.vercel.app/", 
+    repoLink: "https://github.com/Lukas28-cell/nike-project", 
   },
   {
     title: "Project Two",
@@ -38,10 +38,10 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="mb-4">{project.description}</p>
                 <div className="flex justify-between">
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-blue-500 hover:underline">
                     Live Demo
                   </a>
-                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-blue-700 hover:underline">
                     GitHub Repo
                   </a>
                 </div>
