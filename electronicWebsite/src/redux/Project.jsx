@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Project Three",
     description: "A brief description of Project Three.",
-    image: "https://via.placeholder.com/300", 
+    image: "./public/image/HeroImg.jpg", 
     demoLink: "https://example.com",
     repoLink: "https://github.com/yourusername/project-three", 
   },
@@ -27,7 +27,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 ">
+    <section id="projects" className="py-20 bg-gray-100 ">
       <div className="container mx-auto px-5">
         <h2 className="text-3xl font-bold text-center mb-8 text-blue-400">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -41,7 +41,7 @@ const Projects = () => {
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-blue-500 hover:underline">
                     Live Demo
                   </a>
-                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-blue-700 hover:underline">
+                  <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-blue-600 hover:underline">
                     GitHub Repo
                   </a>
                 </div>

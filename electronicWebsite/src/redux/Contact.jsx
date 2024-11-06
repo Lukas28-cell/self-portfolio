@@ -24,9 +24,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 bg-gray-200">
       <div className="container mx-auto px-5">
-        <h2 className="text-3xl font-bold text-center mb-8">Contact Me</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-blue-400">Contact Me</h2>
         {isSubmitted ? (
           <div className="text-center">
             <h3 className="text-xl font-semibold mb-4">Thank You!</h3>
@@ -78,7 +78,8 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-accent text-white py-3 rounded hover:bg-accent-dark transition bg-black"
+              className="w-full bg-accent text-white py-3 rounded 
+              hover:bg-accent-dark transition bg-black"
             >
               Send Message
             </button>
@@ -86,9 +87,13 @@ const Contact = () => {
         )}
         <div className="mt-10 text-center">
           <h3 className="text-xl font-semibold mb-4">Other Ways to Reach Me</h3>
-          <p>Email: <a href="lukakoinaede@gmail.com" className="text-accent hover:underline">lukakoinaede@gmail.com</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/Lukas A" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">https://www.linkedin.com/in/Lukas A</a></p>
-          <p>GitHub: <a href="https://github.com/Lukas28-cell" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">https://github.com/Lukas28-cell</a></p>
+          <p>Email: <a href="lukakoinaede@gmail.com" className="text-accent 
+          hover:underline">lukakoinaede@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/Lukas A" 
+          target="_blank" rel="noopener noreferrer" className="text-accent
+           hover:underline">https://www.linkedin.com/in/Lukas A</a></p>
+          <p>GitHub: <a href="https://github.com/Lukas28-cell" target="_blank" 
+          rel="noopener noreferrer" className="text-accent hover:underline">https://github.com/Lukas28-cell</a></p>
         </div>
       </div>
     </section>

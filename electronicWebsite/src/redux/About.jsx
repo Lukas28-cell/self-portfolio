@@ -3,18 +3,29 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-500">
+    <section id="about" className="py-20 bg-gray-400">
       <div className="container mx-auto px-5">
         <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
-        <div className="flex flex-col md:flex-row items-center">
+     <div className="flex flex-col md:flex-row items-center  ">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="https://via.placeholder.com/300" // Replace with your image URL
+              src="./public/image/HeroImg.jpg" // Replace with your image URL
               alt="About Me"
               className="rounded-full mx-auto shadow-lg"
             />
+               <div className="line1 flex md:left-[8em] font-bold text-black">
+            <span className=" text-sky-900">html</span>
+            <button className="b1 md:w-[74%] w-[17em]"></button>
+            <span  className=" text-sky-900">css</span>
+            <button className="b2 md:w-[74%] w-[17em]"></button>
+            <span  className=" text-sky-900">javascript</span>
+            <button className="b3 md:w-[74%] w-[17em]"></button>
+            <span  className=" text-sky-900">React</span>
+            <button className="b4 md:w-[74%] w-[17em]"></button>
+            </div>
           </div>
-          <div className="md:w-1/2 md:pl-10 text-white pl-2">
+               
+          <div className="md:w-1/2 md:pl-10 text-white pl-2 mt-52">
             <h3 className="text-2xl font-semibold mb-4">Hello!</h3>
             <p className="mb-4 text">
               I am a passionate Frontend Developer with experience in building
@@ -42,10 +53,10 @@ const About = () => {
         <li className=' flex md:gap-20 gap-7'>Nationality:<span>Nigeria</span></li>
        </nav>
           </div>
-        </div>
+     </div>
       </div>
-      <h1 className=' md:text-9xl  text-white text-opacity-70 text-6xl'> <marquee behavior="" direction="right"> A SENIOR WEBSITE DEVELOPER FROM NIGERIA *</marquee> </h1>
-      <h1 className='md:text-9xl text-white text-opacity-45 text-6xl'> <marquee behavior="" direction="left"> I'M OPEN FOR NEW PROJECTS * LET'S WORK TOGETHER</marquee></h1>
+      <h1 className=' md:text-9xl  text-blue text-opacity-70 text-6xl'> <marquee behavior="" direction="right"> A SENIOR WEBSITE DEVELOPER FROM NIGERIA *</marquee> </h1>
+      <h1 className='md:text-9xl  text-opacity-45 text-6xl'> <marquee behavior="" direction="left"> I'M OPEN FOR NEW PROJECTS * LET'S WORK TOGETHER</marquee></h1>
     
     </section>
   );

@@ -7,10 +7,11 @@ import Blog from './redux/Blog'
 import Contact from './redux/Contact'
 import Footer from './redux/Footer'
 import Commitment from './redux/Commitment'
+import './App.css'
 
 const App = () => {
   return (
-    <div className=' bg-slate-600 h-screen'>
+    <div className=' bg-gray-400 h-screen'>
     
       <Header/>
       
