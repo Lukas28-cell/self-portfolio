@@ -9,9 +9,9 @@ const About = () => {
      <div className="flex flex-col md:flex-row items-center  ">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="./public/image/HeroImg.jpg" // Replace with your image URL
+              src="./public/image/lukas-pic2.jpg" // Replace with your image URL
               alt="About Me"
-              className="rounded-full mx-auto shadow-lg"
+              className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
             />
                <div className="line1 flex md:left-[8em] font-bold text-black">
             <span className=" text-sky-900">html</span>

@@ -8,6 +8,7 @@ import Contact from './redux/Contact'
 import Footer from './redux/Footer'
 import Commitment from './redux/Commitment'
 import './App.css'
+import Lukako from './redux/Lukako'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Commitment/>
       <Blog/>
       <Contact/>
+      <Lukako/>
       <Footer/>
    
     </div>

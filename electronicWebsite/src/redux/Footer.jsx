@@ -22,7 +22,7 @@ const Footer = () => {
             className="hover:text-gray-400"
           >
             GitHub
-          </a>
+              </a>
           <a
             href="https://twitter.com/yourusername"
             target="_blank"

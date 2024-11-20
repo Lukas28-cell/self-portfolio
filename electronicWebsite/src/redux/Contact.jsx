@@ -17,10 +17,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your server or email service
     console.log("Form submitted:", formData);
     setIsSubmitted(true);
-    setFormData({ name: "", email: "", message: "" }); // Reset form
+    setFormData({ name: "", email: "", message: "" }); 
   };
 
   return (
@@ -30,7 +29,7 @@ const Contact = () => {
         {isSubmitted ? (
           <div className="text-center">
             <h3 className="text-xl font-semibold mb-4">Thank You!</h3>
-            <p>Your message has been sent. I will get back to you soon!</p>
+            <p className="">Your message has been sent. I will get back to you soon!</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="max-w-lg mx-auto">

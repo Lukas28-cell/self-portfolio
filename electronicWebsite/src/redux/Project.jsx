@@ -11,10 +11,10 @@ const projects = [
   },
   {
     title: "Project Two",
-    description: "A brief description of Project Two.",
+    description: "A modern restaura landing-page website.",
     image: "https://via.placeholder.com/300", 
-    demoLink: "https://example.com", 
-    repoLink: "https://github.com/yourusername/project-two", 
+    demoLink: "https://modern-restaura-landing-page.vercel.app/", 
+    repoLink: "Lukas28-cell/Modern-restaura-landingPage", 
   },
   {
     title: "Project Three",

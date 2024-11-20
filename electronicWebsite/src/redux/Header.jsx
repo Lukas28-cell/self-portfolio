@@ -6,6 +6,11 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [change, setChange] = useState("");
 
+ 
+  const toggleclose = ()=>{
+    setToggle(false)
+  }
+
   // function changecolor() {
   //   if (document.body.style.background=='white') {
   //     document.body.style.background="black"
@@ -28,10 +33,10 @@ const Header = () => {
     <nav className={`md:flex md:items-center md:static absolute w-full md:w-auto bg-primary 
       transition-all duration-300 ease-in-out ${toggle ? 'top-16' : 'top-[-200px]'}`}>
       <ul className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-4 px-5 md:px-0 font-bold">
-        <li><a href="#about" className="hover:text-accent">About</a></li>
-        <li><a href="#projects" className="hover:text-accent">Projects</a></li>
-        <li><a href="#blog" className="hover:text-accent">Blog</a></li>
-        <li><a href="#contact" className="hover:text-accent">Contact</a></li>
+        <li><a href="#about" className="hover:text-accent" onClick={toggleclose}>About</a></li>
+        <li><a href="#projects" className="hover:text-accent" onClick={toggleclose}>Projects</a></li>
+        <li><a href="#blog" className="hover:text-accent" onClick={toggleclose} >Blog</a></li>
+        <li><a href="#contact" className="hover:text-accent" onClick={toggleclose}>Contact</a></li>
       </ul>
     </nav>
     <button onClick={() => setToggle(!toggle)} className="block md:hidden">
